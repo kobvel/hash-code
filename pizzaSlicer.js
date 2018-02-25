@@ -1,0 +1,3 @@
+module.exports.slice = function () {
+
+};

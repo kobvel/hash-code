@@ -1,13 +1,11 @@
 const fs = require('fs');
 const pizzaParser = require('./pizzaParser');
+const pizzaSlicer = require('./pizzaSlicer');
 
 
 const fileName = process.argv[2];
 
-fs.readFile(fileName, 'utf8', (err, contents) =>  {
-    if (err) {
-        throw new Error(err);
-    }
+const content = fs.readFileSync(fileName, 'utf8');
+const inputData = pizzaParser.parse(content);
 
-    console.log(pizzaParser.parse(contents));
-});
+console.log(inputData);

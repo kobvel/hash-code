@@ -10,5 +10,5 @@ module.exports.parse = function (content) {
         minIng: keyData[2],
         maxSize: keyData[3],
         matrix: lines.map(line => line.split(''))
-    }
-}
+    };
+};
