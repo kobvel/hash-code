@@ -1,0 +1,25 @@
+{
+  "name": "hash-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kobvel/hash-code.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kobvel/hash-code/issues"
+  },
+  "homepage": "https://github.com/kobvel/hash-code#readme",
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}
